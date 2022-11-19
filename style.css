@@ -1,0 +1,92 @@
+.wrapper{
+    width: 1340px;
+    height: 641px;
+    background-color: white;
+}
+.upper-container {
+    margin-left: 10px;
+    width: 1330px;
+    height: 50px;
+    top: 8px;
+    display: flex;
+    word-spacing: 16px;
+    margin: 10px;
+    display: inline-block;
+    right: 16px;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #F5F5F6;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    align-items: center;
+    letter-spacing: 0.06em;
+
+color: #000000;
+
+  }
+  .login{
+        margin-left: 130px;
+        border: 1px solid ;
+        border-radius: 4px;
+        background-color: white;
+        font-family: 'Roboto';
+        width: 58px;
+        height: 33px;
+        margin-top: -7px;
+  }
+  .logo{
+    margin-left: 100px;
+    margin-top: 15px;
+  }
+  .upper-text{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 250px;
+    font-size: 15px;
+    color: #959BA4;
+  }
+
+.header{
+    width: 587px;
+    height: 32px;
+    margin-left: 253px;
+    margin-top: 106px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+.btn-group button {
+    background-color: white; 
+    border: 1px solid #E5E5E5;
+    color: #C6C6C6;
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
+    
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; 
+  }
+  
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  
+  .btn-group button:hover {
+    background-color: purple;
+    color: white;
+  }
+ .buttons{
+    margin-left: 253px;
+    margin-top: 62px;
+ }
