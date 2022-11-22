@@ -53,7 +53,7 @@ color: #000000;
     width: 587px;
     height: 32px;
     margin-left: 253px;
-    margin-top: 106px;
+    margin-top: 56px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -86,16 +86,16 @@ color: #000000;
     background-color: purple;
     color: white;
   }
- .buttons{
+ .buttons-from{
     margin-left: 253px;
     margin-top: 62px;
  }
 .have{
     position: absolute;
     width: 120px;
-height: 28px;
-margin-left: 253px;
-margin-top: 11px;
+    height: 28px;
+    margin-left: 253px;
+    margin-top: 11px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -107,4 +107,46 @@ align-items: center;
 
 color: #9F9F9F;
 
+}
+.buttons-to{
+  position: absolute;
+  margin-left: 600px;
+  margin-top: -38px;
+}
+.from-label{
+  position: absolute;
+  margin-left: 253px;
+  width: 290px;
+height: 102px;
+margin-top: 22px;
+
+border: 1px solid #E5E5E5;
+border-radius: 3px;
+}
+.to-label{
+  position: absolute;
+  width: 290px;
+height: 102px;
+margin-left: 600px;
+margin-top: 22px;
+
+border: 1px solid #E5E5E5;
+border-radius: 3px;
+}
+.want{
+  position: absolute;
+  width: 120px;
+    height: 28px;
+    margin-left: 600px;
+    margin-top: 11px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #9F9F9F;
 }
