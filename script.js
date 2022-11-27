@@ -130,10 +130,7 @@ user_input_to.addEventListener('input',()=>{
    for(let i = j - 4;i >=0; i = i - 3){
        arr.splice(i+1,0," ");
    }
-   if(arr.join("") != 'NaN') return arr.join("");
-      else return null
    }
-  
    else {
    let arr = a.split("");
    for(let i = j - 4;i >=0; i = i - 3){
