@@ -1,155 +1,212 @@
-@media (min-width: 1280px){
-.wrapper{
-    width: 1340px;
-    height: 641px;
-    background-color: white;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+    width:100vw;
+    height: 100vh;
+    margin: 0px;
 }
-.upper-container {
-    margin-left: 10px;
-    width: 1330px;
-    height: 50px;
-    top: 8px;
+
+
+/* header */
+ul{
+        padding: 10px;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        display: none;
+        font-weight: bold;
+        font-size: 14px;
+        color: #FFFFFF;
+        background-color: #833AE0;
+        width: 27vw;
+        flex-direction: column;      
+}
+
+.main{
     display: flex;
-    word-spacing: 16px;
-    margin: 10px;
-    display: inline-block;
-    right: 16px;
-    justify-content: center;
-    flex-direction: row;
-    background-color: #F5F5F6;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 11px;
-    line-height: 13px;
-    align-items: center;
-    letter-spacing: 0.06em;
-
-color: #000000;
-
-  }
-  .login{
-    position: absolute;
-        margin-left: 68em;
-        border: 1px solid ;
-        border-radius: 4px;
-        background-color: white;
-        font-family: 'Roboto';
-        width: 58px;
-        height: 33px;
-        margin-top: 5px;
-  }
-  .logo{
-    margin-left: 100px;
-    margin-top: 15px;
-  }
-  .upper-text{
-    position: absolute;
-    margin-top: -25px;
-    margin-left: 250px;
-    font-size: 15px;
-    color: #959BA4;
-  }
-
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
 .header{
-    width: 587px;
-    height: 32px;
-    margin-left: 253px;
-    margin-top: 56px;
+    width: 100%;
+    height: 7%;
+    background-color: 
+    #F5F5F6;
+    display: flex;
+    flex-direction: row;
+}
+div .img1{
+  width: 25%;
+  margin-top: 5px;
+  margin-left: 10%;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-left: -10%;
+    width: 80%;
+}
+.bank{
+    font-weight: 900;
+    font-size: 13px;
+    color: black;
+    text-align: center;
+}
+p{ 
+    text-align: center;
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    color: #000000;
+    align-items: center;
+    font-weight: 500;
+    font-size: 13px;
+    margin-right: 6%;
+    color: #959BA4;;
 }
-.btn-group button {
-    background-color: white; 
-    border: 1px solid #E5E5E5;
-    color: #C6C6C6;
-    padding: 10px 24px; 
-    cursor: pointer; 
-    float: left; 
+.login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    height: 50%;
+    border-radius: 4px;
+    background-color: white;
+    margin-top: 0.5%;
+   margin-right: 5%;
+}
+.login p{
+font-family: 'Roboto';
+font-weight: 900;
+font-size: 11px;
+text-align: center;
+letter-spacing: 0.06em;
+color: black;
+}
+
+/* CONTENT */
+.content{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    margin-left: 21.5%;
+    margin-top: 2%;
+}
+h1{
+   font-family: 'Roboto';
+   font-weight: 900;
+   font-size: 36px;
+}
+.converter{
+    margin-left: 21.5%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-top: 10px;
+   
+}
+.first{
+   width: 30%;
+   height: 40%;
+   margin-right: 12%;
+   display: flex;
+   flex-direction: column;
+  
+}
+.second{
+    width: 30%;
+   height: 40%;
+   display: flex;
+   flex-direction: column;
+   
+}
     
-  }
-  
-  .btn-group button:not(:last-child) {
-    border-right: none; 
-  }
-  
-  .btn-group:after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  
-  .btn-group button:hover {
-    background-color: purple;
-    color: white;
-  }
- .buttons-from{
-    margin-left: 253px;
-    margin-top: 62px;
- }
-.have{
-    position: absolute;
-    width: 120px;
-    height: 28px;
-    margin-left: 253px;
-    margin-top: 11px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+.first p{
+    text-align: left;
+    font-family: 'Roboto';
+font-weight: 900;
 font-size: 12px;
 line-height: 14px;
-display: flex;
-align-items: center;
-
 color: #9F9F9F;
-
 }
-.buttons-to{
-  position: absolute;
-  margin-left: 600px;
-  margin-top: -38px;
-}
-.from-label{
-  position: absolute;
-  margin-left: 253px;
-  width: 290px;
-height: 102px;
-margin-top: 22px;
 
-border: 1px solid #E5E5E5;
-border-radius: 3px;
-}
-.to-label{
-  position: absolute;
-  width: 290px;
-height: 102px;
-margin-left: 600px;
-margin-top: 22px;
-
-border: 1px solid #E5E5E5;
-border-radius: 3px;
-}
-.want{
-  position: absolute;
-  width: 120px;
-    height: 28px;
-    margin-left: 600px;
-    margin-top: 11px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+.second p{
+    text-align: left;
+    font-family: 'Roboto';
+font-weight: 900;
 font-size: 12px;
 line-height: 14px;
-display: flex;
-align-items: center;
-
 color: #9F9F9F;
 }
+
+table{
+        color: #E5E5E5;
+        border: 1px solid #E5E5E5;
+        border-radius: 3px;
+        border-collapse: collapse;
+        justify-content: space-between;
+        margin-bottom: 40px;
+}
+tr{
+    border-radius: 3px;
+}
+tbody{
+    border-radius: 3px;
+}
+td {
+    font-family: 'Roboto';
+    font-weight: 800;
+    width: 3vw;
+    min-width: 60px;
+    text-align: center;
+    margin: 0 0;
+    border:0px;
+    border-radius: 3px;
+    border-right:  1px solid #E5E5E5;
+}
+
+td:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #833AE0;
+    
+}
+
+.p1, .p2{
+    margin-left: 20px;
+    margin-top: -3px;
+}
+.convert{
+display: flex;
+flex-direction: row;
+ height: 30%;
+ width: 80%;
+}
+
+.input_from, .input_to{
+width: 300px;
+height: 200px;
+border: 1px solid #E5E5E5;
+border-radius: 3px;
+box-sizing: border-box;
+}
+.rub1{
+    background-color: #833AE0;
+   
+}
+.usd2{
+    background-color: #833AE0;
+}
+
+
+input{
+    font-size: 30px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    height: 60px;
+    width: 200px;
+    display: flex;
+    margin-top: 20px;   
 }

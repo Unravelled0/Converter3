@@ -1,56 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mobile.css">
-    <link rel="stylesheet" href="tablet.css">
+<html>
+    <head>
+        <link href ="style.css" rel = "stylesheet">
+        <script src=
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+            </script>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    </head>
+    <body>
+     <div class="main">
+        <div class="header">
+         <div class="img1">
+            <img src="photos\png1.svg" class="img1">
+         </div>
+         <div class="menu">
+         <p class="bank">БАНК</p>
+         <p>БИЗНЕС</p>
+         <p>ИНВЕСТИЦИИ</p>
+         <p>СТРАХОВАНИЕ</p>
+         <p>МОБАЙЛ</p>
+         <p>ПУТЕШЕСТВИЯ</p>
+         <p>РАЗВЛЕЧЕНИЯ</p>
+         </div>
+         <div class="login">
+            <p>ВОЙТИ</p>
+         </div>
+         
+        </div>
 
-    <title>Document</title>
-</head>
-<body>
-    <div class="wrapper">
-        <div class="upper-container">
-            <img src="Photos\png1.svg" class="logo">
-            <div class="upper-text">
-                <span>БАНК</span>
-                <span>БИЗНЕС</span>
-                <span>ИНВЕСТИЦИИ</span>
-                <span>СТРАХОВАНИЕ</span>
-                <span>МОБАЙЛ</span>
-                <span>ПУТЕШЕСТВИЯ</span>
-                <span>РАЗВЛЕЧЕНИЯ</span>
-            </div>
-            <button class="login">ВОЙТИ</button>
-        
+        <div class="content">
+            <div class="text">
+        <h1>Конвертер валют онлайн</h1>
         </div>
-        
-<div class="center">
-        <h1 class="header">Конвертер валют онлайн</h1>
-        <p class="have">У меня есть </p>
-        <p class="want">Хочу приобрести </p>
-        <div class="buttons-from">
-            <div class="btn-group">
-            <button>AZN</button>
-            <button>USD</button>
-            <button>TL</button>
-            <button>RUB</button>
+        <div class="converter">
+            <div class="first">
+            <p>У меня есть</p>
+            <div class="convert">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="rub1" id="money_from">RUB</td>
+                            <td class="usd1" id="money_from">USD</td>
+                            <td class="eur1" id="money_from">EUR</td>
+                            <td class="gbp1" id="money_from">GBP</td>
+                         </tr>
+                    </tbody>
+                </table>
+              </div>
+              <div class="input_from">
+                <input class="input_one" type="text">
+                <p class="post_one" >1</p>
+              </div>
+              
             </div>
+            
+            <div class="second">
+                <p>Хочу приобрести</p>
+                <div class="convert">
+                    <table>
+                    <tbody>
+                        <tr>
+                            <td class="rub2" id="money_to">RUB</td>
+                            <td class="usd2" id="money_to">USD</td>
+                            <td class="eur2" id="money_to">EUR</td>
+                            <td class="gbp2" id="money_to">GBP</td>
+                         </tr>
+                    </tbody>
+                    </table>
+                </div>
+            
+            <div class="input_to">
+                <input class="input_two" type="text">
+                <p class="post_two">1 </p>
+              </div>
+              
+              </div>
         </div>
-        <input class="from-label" type="text" id="numfrm" placeholder="">
-        <div class="buttons-to">
-            <div class="btn-group">
-            <button>AZN</button>
-            <button>USD</button>
-            <button>TL</button>
-            <button>RUB</button>
-            </div>
         </div>
-        <input class="to-label" type="text" id="numto" placeholder="">
-            </div>
-        </div>
-        <script src="script.js"></script>
-</body>
+     </div>
+    </body>
+    <script src="./script.js"></script>
 </html>
